@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    text-align: center;
+
+    & h1 {
+        font-size: 50px;
+    }
+
+    & #AddButton {
+        cursor: pointer;
+    }
+
+    .Tasks {
+        justify-content: center;
+        display: flex;
+        top: 50px;
+
+        & #TrashButton {
+            cursor: pointer;
+            position: relative;
+            top: 15px;
+            left: 10px;
+            width: 2%;
+            height: 2%;
+        }
+    }
+}
