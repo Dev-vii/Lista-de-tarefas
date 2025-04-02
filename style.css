@@ -17,17 +17,22 @@ section {
     }
 
     .Tasks {
-        justify-content: center;
         display: flex;
-        top: 50px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
 
-        & #TrashButton {
-            cursor: pointer;
-            position: relative;
-            top: 15px;
-            left: 10px;
-            width: 2%;
-            height: 2%;
-        }
+    .task {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .task img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
     }
 }
